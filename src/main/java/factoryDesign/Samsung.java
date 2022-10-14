@@ -1,6 +1,6 @@
 package factoryDesign;
 
-public class Samsung implements Phone{
+public class Samsung implements Telephone {
   private String modelName;
   private String batery;
   private String colour;
@@ -19,7 +19,7 @@ public class Samsung implements Phone{
   }
 
   @Override
-  public String Batery() {
+  public String batery() {
     return batery;
   }
 

@@ -1,8 +1,8 @@
 package factoryDesign;
 
-public interface Phone {
+public interface Telephone {
   String modelName();
-  String Batery();
+  String batery();
   String colour();
   int size();
 }

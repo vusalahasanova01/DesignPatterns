@@ -1,8 +1,8 @@
 package factoryDesign;
 
-public class AllPhone {
-  public static Phone getPhone(String modelName,String batery,String colour,int size){
-      Phone phone;
+public class TelephoneFactory {
+  public static Telephone getPhone(String modelName, String batery, String colour, int size){
+      Telephone phone;
       if(("Iphone").equalsIgnoreCase(modelName)){
         phone =new Iphone (modelName,batery,colour,size);
       }
